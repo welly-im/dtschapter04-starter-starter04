@@ -28,7 +28,7 @@ public class WelcomeSlideCalendar extends AppCompatActivity {
         i.setType("text/plain");
         i.putExtra(Intent.EXTRA_EMAIL, new String[]{"dts@polinema.ac.id"});
         i.putExtra(Intent.EXTRA_SUBJECT, "Test Email");
-        i.putExtra(Intent.EXTRA_TEXT, "Welcome to dts 2019");
+        i.putExtra(Intent.EXTRA_TEXT, "Halo Halo Halo");
         startActivity(i.createChooser(i, "Pilih email client"));
     }
 }
